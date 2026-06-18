@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MaterialCard" format=3 uid="uid://dhym6rwg3x1vj"]
+
+[ext_resource type="Texture2D" uid="uid://dqxmsbb324vqx" path="res://Assets/obsidian.png" id="1_ecnrn"]
+[ext_resource type="Script" uid="uid://b87wn6w5xo2pq" path="res://Scripts/MaterialCard.gd" id="1_yihn1"]
+
+[resource]
+script = ExtResource("1_yihn1")
+card_name = "Obsidian"
+card_type = 5
+card_pattern = 2
+rarity = 2
+power = 8
+weight = 3
+card_texture = ExtResource("1_ecnrn")
+metadata/_custom_type_script = "uid://b87wn6w5xo2pq"

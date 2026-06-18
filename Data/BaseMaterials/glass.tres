@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MaterialCard" format=3 uid="uid://bglcd0gvi3ahf"]
+
+[ext_resource type="Texture2D" uid="uid://be8neh7lasaub" path="res://Assets/glass.png" id="1_08vmc"]
+[ext_resource type="Script" uid="uid://b87wn6w5xo2pq" path="res://Scripts/MaterialCard.gd" id="1_na28q"]
+
+[resource]
+script = ExtResource("1_na28q")
+card_name = "Glass"
+card_type = 2
+card_pattern = 1
+rarity = 1
+power = 6
+weight = 2
+card_texture = ExtResource("1_08vmc")
+metadata/_custom_type_script = "uid://b87wn6w5xo2pq"

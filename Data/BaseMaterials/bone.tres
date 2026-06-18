@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MaterialCard" format=3 uid="uid://r37tp1yi1pan"]
+
+[ext_resource type="Texture2D" uid="uid://c2gako5g3mt2j" path="res://Assets/bone.png" id="1_jlbjw"]
+[ext_resource type="Script" uid="uid://b87wn6w5xo2pq" path="res://Scripts/MaterialCard.gd" id="1_nb7dx"]
+
+[resource]
+script = ExtResource("1_nb7dx")
+card_name = "Bone"
+card_type = 3
+card_pattern = 2
+rarity = 1
+power = 4
+weight = 2
+card_texture = ExtResource("1_jlbjw")
+metadata/_custom_type_script = "uid://b87wn6w5xo2pq"

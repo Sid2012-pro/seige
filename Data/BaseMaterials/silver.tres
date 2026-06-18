@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MaterialCard" format=3 uid="uid://gmijadloyacb"]
+
+[ext_resource type="Texture2D" uid="uid://clsn76tqsvh1d" path="res://Assets/silver.png" id="1_3a1om"]
+[ext_resource type="Script" uid="uid://b87wn6w5xo2pq" path="res://Scripts/MaterialCard.gd" id="1_45dal"]
+
+[resource]
+script = ExtResource("1_45dal")
+card_name = "Silver"
+card_type = 1
+rarity = 1
+power = 9
+weight = 2
+card_texture = ExtResource("1_3a1om")

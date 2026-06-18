@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MaterialCard" format=3 uid="uid://nnbc55wfx63u"]
+
+[ext_resource type="Texture2D" uid="uid://dhh1xkq4j80g" path="res://Assets/tar.png" id="1_g8qdg"]
+[ext_resource type="Script" uid="uid://b87wn6w5xo2pq" path="res://Scripts/MaterialCard.gd" id="1_tipeg"]
+
+[resource]
+script = ExtResource("1_tipeg")
+card_name = "Tar"
+card_type = 4
+card_pattern = 2
+rarity = 1
+power = 3
+weight = 2
+card_texture = ExtResource("1_g8qdg")
+metadata/_custom_type_script = "uid://b87wn6w5xo2pq"

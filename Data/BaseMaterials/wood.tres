@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MaterialCard" format=3 uid="uid://ieyw4vgkivbx"]
+
+[ext_resource type="Texture2D" uid="uid://r3gwqwtk6vso" path="res://Assets/wood.png" id="1_fmc5a"]
+[ext_resource type="Script" uid="uid://b87wn6w5xo2pq" path="res://Scripts/MaterialCard.gd" id="2_l66t5"]
+
+[resource]
+script = ExtResource("2_l66t5")
+card_name = "Wood"
+power = 3
+weight = 1
+card_texture = ExtResource("1_fmc5a")
